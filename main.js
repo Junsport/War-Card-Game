@@ -55,8 +55,11 @@ function cardValue(val){
     return val
   }
 }
-document.querySelector('h3').addEventListener('click', playWar)
+document.querySelector('h3').addEventListener('click', runWar)
 
 function playWar(){
-  alert('it works')
+  document.querySelector('h3').innerText = "Click for WAR!"
+}
+function runWar(){
+ 
 }
