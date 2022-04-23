@@ -56,10 +56,13 @@ function cardValue(val){
   }
 }
 document.querySelector('h3').addEventListener('click', runWar)
-
+ 
 function playWar(){
-  document.querySelector('h3').innerText = "Click for WAR!"
+    document.querySelector('h3').innerText = "Click for WAR!"
 }
 function runWar(){
- 
+
+    getFetch()
 }
+
+
