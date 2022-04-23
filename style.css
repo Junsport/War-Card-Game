@@ -1,0 +1,36 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+  body{
+    background-color: lightblue;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h3{
+    font-size: 52px;
+  }
+  button{
+    background-color: gold;
+    border-radius: 50%;
+    height: 100px;
+  }
+  .colorize{
+    background-color: rgb(142, 255, 255);
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
